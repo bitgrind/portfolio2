@@ -1,5 +1,8 @@
 main {
   background-color:rgba(255,255,255,.8);
+  padding-top:40px;
+  margin-top:40px;
+  border-radius: 5px;
 }
 
 .clear {
@@ -25,14 +28,65 @@ section {
   padding-bottom:40px;
 }
 
+.sm-header li {list-style: none;display: inline-block;}
+
+#personal {
+  margin:0;
+  padding:0;
+}
+
+#Keith-Stedman-Photo {
+  margin-top:40px;
+}
+
+#Keith-Stedman-Photo span {
+  font-size:.8em;
+  text-align: center;
+}
+
+#Keith-Stedman-Photo img {
+  width:100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#skills h1 {
+  margin:0;
+}
+#skills > div > span {
+  text-align: center;
+}
+
+#skills > span {
+  font-size:.8em;
+  vertical-align:top;
+  text-align: center;
+}
+
+#skills > span > img {
+  display:block;
+  margin:auto;
+}
+
+#skills > div img {
+  width:70%;
+}
+
+#skills #php img, #skills #mysql img {
+  width:100%;
+}
+
 .past-experience {
   border:1px solid #ddd;
   margin-bottom:20px;
   height:80px;
   cursor:pointer;
 }
+.past-experience .projects {
+  display:none;
+}
 
-.past-experience > div {
+.past-experience-logo {
   display: inline-block;
   height:90px;
   width:240px;
@@ -65,22 +119,4 @@ section {
 
 #CMET h2 {
 
-}
-
-#personal {
-  position:relative;
-}
-
-#Keith-Stedman-Photo {
-  width:20%;
-  float:left;
-}
-
-#Keith-Stedman-Photo img {
-  width:100%;
-}
-
-#sitka-on-the-map {
-  width:200px;
-  float:right;
 }
