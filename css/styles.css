@@ -27,16 +27,25 @@ section {
 
 .past-experience {
   border:1px solid #ddd;
-  margin-bottom:-10px;
+  margin-bottom:20px;
   height:80px;
   cursor:pointer;
 }
 
 .past-experience > div {
   display: inline-block;
-  height:120px;
+  height:90px;
+  width:240px;
   position:relative;
-  top:-50px;
+  top:-26px;
+  overflow: hidden;
+}
+.past-experience > div img {
+  top:0;
+  bottom:0;
+  margin:auto;
+  width:200px;
+  position: absolute;
 }
 
 .past-experience h2 {
@@ -53,10 +62,6 @@ section {
   vertical-align: top;
   display:inline-block;
 }
-.past-experience img {
-  width:200px;
-  position: relative;
-}
 
 #CMET h2 {
 
@@ -65,13 +70,16 @@ section {
 #personal {
   position:relative;
 }
+
 #Keith-Stedman-Photo {
   width:20%;
   float:left;
 }
+
 #Keith-Stedman-Photo img {
   width:100%;
 }
+
 #sitka-on-the-map {
   width:200px;
   float:right;
