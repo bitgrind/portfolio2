@@ -1,19 +1,78 @@
-main {background-color:rgba(255,255,255,.8);}
+main {
+  background-color:rgba(255,255,255,.8);
+}
 
-.clear {clear:both;}
-.clear:after {width:100%;content:'';height:1px;clear:both;}
+.clear {
+  clear:both;
+}
 
-#cover-header {width:100%;height:600px;position: fixed;top:0;z-index: -1;}
+.clear:after {
+  width:100%;
+  content:'';
+  height:1px;
+  clear:both;
+}
 
-section {padding-bottom:40px;}
+#cover-header {
+  width:100%;
+  height:600px;
+  position: fixed;
+  top:0;
+  z-index: -1;
+}
 
-.past-experience {height:80px;cursor:pointer;}
-.past-experience h2 {font-size:24px;vertical-align: top;display:inline-block;margin-top:5px;}
-.past-experience h3 {font-size:18px;margin-left:10px;margin-top:10px;vertical-align: top;display:inline-block;}
+section {
+  padding-bottom:40px;
+}
 
-#CMET h2 {}
+.past-experience {
+  border:1px solid #ddd;
+  margin-bottom:-10px;
+  height:80px;
+  cursor:pointer;
+}
 
-#personal {position:relative;}
-#Keith-Stedman-Photo {width:20%;float:left;}
-#Keith-Stedman-Photo img {width:100%;}
-#sitka-on-the-map {width:200px;float:right;}
+.past-experience > div {
+  display: inline-block;
+  height:120px;
+  position:relative;
+  top:-50px;
+}
+
+.past-experience h2 {
+  font-size:24px;
+  vertical-align: top;
+  display:inline-block;
+  margin-top:5px;
+}
+
+.past-experience h3 {
+  font-size:18px;
+  margin-left:10px;
+  margin-top:10px;
+  vertical-align: top;
+  display:inline-block;
+}
+.past-experience img {
+  width:200px;
+  position: relative;
+}
+
+#CMET h2 {
+
+}
+
+#personal {
+  position:relative;
+}
+#Keith-Stedman-Photo {
+  width:20%;
+  float:left;
+}
+#Keith-Stedman-Photo img {
+  width:100%;
+}
+#sitka-on-the-map {
+  width:200px;
+  float:right;
+}
