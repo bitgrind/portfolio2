@@ -1,0 +1,79 @@
+main {margin-top:380px;background-color:rgba(255,255,255,.9);border-radius: 2px;}
+
+.clear {clear:both;}
+.clear:after {width:100%;content:'';height:1px;clear:both;}
+
+#cover-header {width :100%;height:600px;position: fixed;top:0;z-index: -1;}
+#cover-header img {width :100%;}
+
+section {padding-bottom:40px;}
+
+.sm-header li {list-style: none;display: inline-block;}
+
+#skills > span {font-size:.8em;vertical-align:top;text-align: center;}
+#skills > span > i {font-size:5em;display:block;}
+#skills > span > img {display:block;margin:auto;}
+#skills img {width:50px;}
+
+#php img {width:100px;}
+#mysql img {width:100px;}
+
+.past-experience {min-height:400px;position: relative;}
+.past-experience a {position: absolute;width:100%;height:100%;z-index: 10;top:0;left:0;}
+.past-experience img {position: absolute;z-index: 10;top:0;left:0;right:0;margin:2% auto;z-index: 1;max-width:94%;}
+.past-experience h2 {margin-top:160px;z-index: 20;position: relative;display:inline-block;}
+.past-experience h3 {display:inline-block;color:#666;}
+.past-experience-desc {}
+section .past-experience .past-experience-desc h3 {color:#333;}
+
+.epicodus-project h3 {color:#333;}
+.epicodus-project:hover {text-shadow: 0px 1px 1px #999;}
+
+#uo-project h2 {margin-top:80px;width:70%;}
+#uo-project > h3 {vertical-align: top;margin-top:80px;width:15%;}
+
+#uo-library > h2 {margin-top:120px;width:70%;}
+#uo-library > h3 {margin-top:120px;width:15%;vertical-align: top;}
+#uo-library img {}
+#uo-athletics img {width:30%;}
+#uo-athletics > h2 {width:70%;}
+#uo-athletics > h3 {width:15%;vertical-align: top;margin-top:170px;}
+
+#personal {position:relative;min-height:330px;margin-top:2%;}
+#Keith-Stedman-Photo {float:left;text-align: center;}
+#Keith-Stedman-Photo img {width:100%;border-radius:50%;}
+#Keith-Stedman-Photo span {font-size:.8em;color:#999;}
+#sitka-on-the-map {width:200px;float:right;}
+#sitka-on-the-map img {width:100%;}
+
+#bio {padding-left:2%;float:left;}
+#bio .sm-header {position: absolute;right:2%;top:5%;font-size:2em;}
+
+#funtime > div {text-align: center;padding:2%;min-height:330px;}
+#funtime > div a {position: absolute;left:0;top:0;width:100%;height:100%;}
+#funtime > div img {max-width:90%;margin:auto;}
+#funtime > div h2 {margin:10px 0;}
+
+footer {text-align: center;background-color:#fff;}
+footer a {font-size:4em;}
+footer li {list-style: none;}
+#sm-linkedin {}
+#sm-instagram {}
+
+@media (max-width:767px) {
+
+  #bio .sm-header {top:-6%;}
+}
+
+@media (min-width:767px) and (max-width:980px) {
+  .past-experience {min-height:470px;}
+  #uo-project h2 {margin-top:150px;}
+  #uo-library > h2 {margin-top:190px;}
+  #uo-athletics > h2 {margin-top:190px;}
+}
+
+@media (min-width:980px) {
+  .past-experience {min-height:470px;}
+  #uo-project > h2, #uo-project > h3 {margin-top:150px;}
+  #uo-library > h2, #uo-library > h3 {margin-top:150px;}
+}
